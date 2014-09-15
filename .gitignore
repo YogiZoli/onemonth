@@ -17,4 +17,7 @@
 .DS_Store
 .c9/
 .c9/*
+.c9/*/*
+.c9/*/*/*
+.c9/metadata/*
 .gitignore
