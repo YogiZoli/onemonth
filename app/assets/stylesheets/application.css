@@ -9,5 +9,6 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= reqire 'masonry/transitions'
  *= require_tree .
  */
