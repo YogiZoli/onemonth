@@ -2,7 +2,7 @@ Workspace::Application.routes.draw do
   resources :pins
 
   devise_for :users
-  root "pages#home"
+  root "pa#index"
   
   get "about" => "pages#about"
   
