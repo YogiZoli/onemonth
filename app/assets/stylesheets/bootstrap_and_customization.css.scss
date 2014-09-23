@@ -1,4 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
 
 $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $body-bg: #3498db;
@@ -7,5 +12,7 @@ $navbar-inverse-link-color: white;
 $navbar-height: 45px;
 $brand-primary: #c0392b;
 $jumbotron-bg: #ecf0f1;
+$icon-font-path: "/assets/bootstrap/";
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
